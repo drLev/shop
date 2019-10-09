@@ -15,7 +15,7 @@
 
 Route::get('/', 'HomeController@index')->name('index');
 
-Route::get('/about', 'AbouthController@index')->name('about');
+
 
 Route::get('/checkout', 'CheckoutController@index')->name('checkout');
 
@@ -25,7 +25,7 @@ Route::get('/faqs', 'FaqsController@index')->name('faqs');
 
 Route::get('/productdetail', 'ProductdetailController@index')->name('productdetail');
 
-Route::get('/products', 'ProductsController@index')->name('/products/{?id}');
+Route::get('/products/{id?}', 'ProductsController@index')->name('products');
 
 Route::get('/shoppingcart', 'ShoppingcartController@index')->name('shoppingcart');
 
