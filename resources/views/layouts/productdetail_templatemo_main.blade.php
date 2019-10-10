@@ -1,9 +1,9 @@
     <div id="templatemo_main">
     	
         @include('layouts.sidebar') <!--- отвечает за боковое меню --->
-        
+        @foreach ($product as $product)
         <div id="content" class="float_r">
-        	<h1>Product Detail</h1>
+        	<h2> {{$products->id}} {{$products->title}} </h2>
             <div class="content_half float_l">
         	<a  rel="lightbox[portfolio]" href="images/product/10_l.jpg"><img src="images/product/10.jpg" alt="image" /></a>
             </div>
@@ -65,5 +65,7 @@
                 <a href="productdetail.html" class="detail"></a>
             </div>     
         </div> 
+        
+        @endforeach
         <div class="cleaner"></div>
     </div> <!-- END of templatemo_main -->

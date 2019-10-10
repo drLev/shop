@@ -29,4 +29,6 @@ Route::get('/products/{id?}', 'ProductsController@index')->name('products');
 
 Route::get('/shoppingcart', 'ShoppingcartController@index')->name('shoppingcart');
 
+Route::post('/comment', 'PostController@addComment');
+
 Auth::routes();

@@ -3,10 +3,31 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Programmer/OSPanel/domains/SuperM/app/Http/Controllers/ProductsController.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/products.blade.php</file>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/routes/web.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/faqs_head.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/contact.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/checkout_templatemo_main.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/app/Http/Controllers/ProductsController.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/templatemo_header.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/footer.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/checkout.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/contact_templatemo_main.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/shoppingcart.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/app/Http/Controllers/ProductdetailController.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/checkout_head.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/products_templatemo_main.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/faqs_templatemo_main.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/index_head.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/faqs.blade.php</file>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/app/Admin/routes.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/sidebar.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/shoppingcart_templatemo_main.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/products_head.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/public/templatemo_style.css</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/productdetail_templatemo_main.blade.php</file>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/index.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/templatemo_menubar.blade.php</file>
         </group>
     </open-files>
 </project-private>

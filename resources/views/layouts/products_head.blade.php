@@ -10,9 +10,9 @@ http://www.templatemo.com/preview/templatemo_367_shoes
 <title>Shoes Store - Products</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+<link href="/templatemo_style.css" rel="stylesheet" type="text/css" />
 
-<link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
+<link rel="stylesheet" type="text/css" href="/css/ddsmoothmenu.css" />
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/ddsmoothmenu.js">
