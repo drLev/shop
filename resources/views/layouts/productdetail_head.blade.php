@@ -11,6 +11,8 @@ http://www.templatemo.com/preview/templatemo_367_shoes
 <title>Shoes Store - Product Detail</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
+
+<link href="/vendor/css/comments.css" rel="stylesheet">
 <link href="/templatemo_style.css" rel="stylesheet" type="text/css" />
 
 <link rel="stylesheet" type="text/css" href="/css/ddsmoothmenu.css" />
@@ -42,6 +44,14 @@ ddsmoothmenu.init({
 <link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen" /> 
 <script type="text/JavaScript" src="js/slimbox2.js"></script> 
 
+  <!-- Bootstrap core JavaScript -->
+  <script src="//vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- Custom scripts for this template -->
+  <script src="/vendor/js/clean-blog.min.js"></script>
+
 
 </head>
 
@@ -64,6 +74,7 @@ ddsmoothmenu.init({
     
 </div> <!-- END of templatemo_wrapper -->
 </div> <!-- END of templatemo_body_wrapper -->
+
 
 </body>
 </html>

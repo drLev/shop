@@ -4,12 +4,15 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/products.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/contact_head.blade.php</file>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/routes/web.php</file>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/faqs_head.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/shoppingcart_head.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/database/migrations/2019_09_21_213456_add_post_table.php</file>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/contact.blade.php</file>
-            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/checkout_templatemo_main.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/productdetail.blade.php</file>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/app/Http/Controllers/ProductsController.php</file>
-            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/templatemo_header.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/productdetail_head.blade.php</file>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/footer.blade.php</file>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/checkout.blade.php</file>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/contact_templatemo_main.blade.php</file>
@@ -18,16 +21,24 @@
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/checkout_head.blade.php</file>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/products_templatemo_main.blade.php</file>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/faqs_templatemo_main.blade.php</file>
-            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/index_head.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/database/seeds/AddPostsSeeder.php</file>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/faqs.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/index_head.blade.php</file>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/app/Admin/routes.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/.env</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/app/Post.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/app/Comment.php</file>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/sidebar.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/app/Admin/Controllers/PostController.php</file>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/shoppingcart_templatemo_main.blade.php</file>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/products_head.blade.php</file>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/public/templatemo_style.css</file>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/productdetail_templatemo_main.blade.php</file>
-            <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/index.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/public/css/comments.css</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/config/filesystems.php</file>
             <file>file:/C:/Programmer/OSPanel/domains/SuperM/resources/views/layouts/templatemo_menubar.blade.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/app/Http/Controllers/HomeController.php</file>
+            <file>file:/C:/Programmer/OSPanel/domains/SuperM/database/migrations/2019_10_02_180217_add_comments_table.php</file>
         </group>
     </open-files>
 </project-private>

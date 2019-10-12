@@ -11,13 +11,9 @@
               <p class="product_price">$ 100</p>
                 <a href="shoppingcart.html" class="addtocart"></a>
                 <a href="productdetail.html" class="detail"></a>
-            </div>        	
-          
-            
-           
-                 	
-            
+            </div>            
         </div> 
+        
         <div class="cleaner"></div>
         
     </div> <!-- END of templatemo_main -->

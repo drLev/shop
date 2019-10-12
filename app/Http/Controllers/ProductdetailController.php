@@ -13,7 +13,7 @@ class ProductdetailController extends Controller
         return view('productdetail')        
         ->with(['products' => $products]); */
         
-        $products = Post::orderBy('id', 'desc')->take(3)->get()    ;
+        $products = Post::orderBy('id', 'desc')->take(2)->get()    ;
         return view('productdetail')->with('products', $products);
     }
     
