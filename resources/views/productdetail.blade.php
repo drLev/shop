@@ -1,6 +1,8 @@
+
 @extends('layouts.productdetail_head')
 @section('content')
-
+ <!--@if (!(empty($products)))
+ 
         @foreach ($products as $product)
         
                 <div id="content" class="float_r">
@@ -32,17 +34,12 @@
                             </tr>
                         </table>
                         <div class="cleaner h20"></div>
-
                         <a href="shoppingcart.html" class="addtocart"></a>
-
                                 </div>
                     <div class="cleaner h30"></div>
-
                     <h5>Product Description</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper quam sit amet turpis rhoncus id venenatis tellus sollicitudin. Fusce ullamcorper, dolor non mollis pulvinar, turpis tortor commodo nisl, et semper lectus augue blandit tellus. Quisque id bibendum libero. Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow">XHTML</a> &amp; <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow">CSS</a>.</p>	
-
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper quam sit amet turpis rhoncus id venenatis tellus sollicitudin. Fusce ullamcorper, dolor non mollis pulvinar, turpis tortor commodo nisl, et semper lectus augue blandit tellus. Quisque id bibendum libero. Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow">XHTML</a> &amp; <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow">CSS</a>.</p> 
                   <div class="cleaner h50"></div>
-
                     <h3>Related Products</h3>
                         <div class="product_box">
                         <a href="productdetail.html"><img src="images/product/01.jpg" alt="" /></a>
@@ -50,14 +47,14 @@
                         <p class="product_price">$ 100</p>
                         <a href="shoppingcart.html" class="addtocart"></a>
                         <a href="productdetail.html" class="detail"></a>
-                    </div>        	
+                    </div>            
                     <div class="product_box">
                         <a href="productdetail.html"><img src="images/product/02.jpg" alt="" /></a>
                         <h3>Curabitur et turpis</h3>
                         <p class="product_price">$ 200</p>
                         <a href="shoppingcart.html" class="addtocart"></a>
                         <a href="productdetail.html" class="detail"></a>
-                    </div>        	
+                    </div>            
                     <div class="product_box no_margin_right">
                         <a href="productdetail.html"><img src="images/product/03.jpg" alt="" /></a>
                         <h3>Mauris consectetur</h3>
@@ -67,9 +64,34 @@
                     </div>     
                 </div> 
         
-        @endforeach
+        <hr>
+        
 
- <div class="actionBox">
+        <div class="comments">
+            <ul class="list-group">
+                {{dd($product)}}
+
+                @foreach ($product->comments as $comment) 
+                <li class="list-group-item">
+                    
+                        {{$comment->text}}
+                    
+                </li>
+                @endforeach
+            </ul>
+        </div>
+        
+        <div class="card">
+            <div class="card-block"></div>
+        </div>
+
+        
+        @endforeach
+    @endif 
+        
+@endsection  -->   
+        
+ <!-- <div class="actionBox">
 
         <ul class="commentList">
                 @foreach($products->comments as $comment)
@@ -124,6 +146,6 @@
         });
         return false;
     });
-</script>
+</script> -->
 
-@endsection
+@endsection 

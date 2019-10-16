@@ -15,7 +15,7 @@ class AddPostTable extends Migration
     {
         Schema::create('posts', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->varbinary('photo');
+            //$table->varbinary('photo');
             $table->timestamps();
             $table->string('title', 255);
             $table->text('text');
