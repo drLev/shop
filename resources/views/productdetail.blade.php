@@ -1,10 +1,6 @@
 
 @extends('layouts.productdetail_head')
 @section('content')
- <!--@if (!(empty($products)))
- 
-        @foreach ($products as $product)
-        
                 <div id="content" class="float_r">
                         <h2> {{$product->id}} {{$product->title}} </h2>
                     <div class="content_half float_l">
@@ -69,7 +65,6 @@
 
         <div class="comments">
             <ul class="list-group">
-                {{dd($product)}}
 
                 @foreach ($product->comments as $comment) 
                 <li class="list-group-item">
@@ -85,31 +80,9 @@
             <div class="card-block"></div>
         </div>
 
-        
-        @endforeach
-    @endif 
-        
-@endsection  -->   
-        
- <!-- <div class="actionBox">
 
-        <ul class="commentList">
-                @foreach($products->comments as $comment)
+    <div class="actionBox">
 
-            <li>
-  	        <div class="commenterImage">
-
-                  <img src="http://placekitten.com/50/50" />
-                </div>
-
-                <div class="commentText">
-          	    <p class="">{{$comment->text}}</p> <span class="date sub-text">on March 5th, 2014</span>
-
-                </div>
-            </li>
-
-            @endforeach
-          
         <form class="form-inline" role="form">
             <div class="form-group">
 
@@ -128,7 +101,7 @@
         var commentText = $('#commentText').val();
         $('#commentText').val('');
         $.products('/comment', {
-            postId: {{$products->id}},
+            postId: {{$product->id}},
             text: commentText,
             "_token": "{{ csrf_token() }}",
         },
@@ -146,6 +119,6 @@
         });
         return false;
     });
-</script> -->
+</script>
 
 @endsection 

@@ -8,13 +8,14 @@ use App\Comment;
 
 class ProductdetailController extends Controller
 {       
-    public function index( $productsId = 0 ) {        
-      /*  $products = Post::find($productsId);
-        return view('productdetail')        
-        ->with(['products' => $products]); */
-        
-        $products = Post::orderBy('id', 'desc')->take(2)->get()    ;
-        return view('productdetail')->with('products', $products);
+    public function index( $productsId = 0 ) {
+        $product = Post::find($productsId);
+        if (!$product) {
+            abort(404);
+        } else {
+            return view('productdetail')
+                ->with(['product' => $product]);
+        }
     }
     
     

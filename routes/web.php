@@ -23,9 +23,9 @@ Route::get('/contact', 'ContactController@index')->name('contact');
 
 Route::get('/faqs', 'FaqsController@index')->name('faqs');
 
-Route::get('/productdetail', 'ProductdetailController@index')->name('productdetail');
+Route::get('/productdetail/{id?}', 'ProductdetailController@index')->name('productdetail');
 
-Route::get('/products/{id?}', 'ProductsController@index')->name('products');
+Route::get('/products', 'ProductsController@index')->name('products');
 
 Route::get('/shoppingcart', 'ShoppingcartController@index')->name('shoppingcart');
 

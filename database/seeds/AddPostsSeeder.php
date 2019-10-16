@@ -14,9 +14,9 @@ class AddPostsSeeder extends Seeder
     {
         $post = new Post();
         $post->title = 'Заголовок поста';
-        $post->photo = 'photo{id?}';
+//        $post->photo = 'photo{id?}';
         $post->text = 'ghkjfvkjkfgkhfgjkbnfgnjndfjkf';
-        $post->user_id = 0;
+//        $post->user_id = 0;
         
         
         $post->save();
